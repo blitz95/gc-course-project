@@ -194,7 +194,7 @@ Merged the combined data set data frame and actLabels data frame
 
 Use aggregate function to take the average of the values for each variable grouped by ActivityName and SubjectID  
 
-Wrote the first 5 lines of the file to the screen using the head() function.
+Saved the data set to HAR_tidy_data object.
 
 Wrote the data set HAR_tidy_data.txt using write.table with default values   
 

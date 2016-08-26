@@ -109,6 +109,6 @@ HAR_tidy_data <- aggregate(data_comb_labeled[,3:81],list(Activity=data_comb_labe
 print("Data set saved to dataframe, HAR_tidy_data")
 
 #Write the HAR_tidy_data data frame to the data folder under the working directory
-write.table(HAR_tidy_data, file = "HAR_tidy_data.txt")
+write.table(HAR_tidy_data, file = "HAR_tidy_data.txt", row.names = FALSE)
 
 print("Output file HAR_tidy_data.txt written to current directory")
